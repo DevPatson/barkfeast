@@ -21,6 +21,7 @@
   <!-- 
     - custom css link
   -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./assets/css/index.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/product.css">
@@ -91,19 +92,7 @@
 
       <div class="header-actions">
 
-        <!-- <button class="action-btn" aria-label="Search">
-          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <button class="action-btn user" aria-label="User">
-          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <button class="action-btn" aria-label="cart">
-          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-
-          <span class="btn-badge">0</span>
-        </button> -->
+       
 
       </div>
 
@@ -122,7 +111,7 @@
       -->
 
       <section class="section hero has-bg-image" id="home" aria-label="home"
-        style="background-image: url('./assets/images/hero-banner.jpg')">
+        style="background-image: url('./assets/images/gifgit_2024_11_19_134954.jpg')">
         <div class="container">
 
           <h1 id="h1hero" class="h1 hero-title">
@@ -131,7 +120,7 @@
 
           <p class="hero-text">Sale up to 40% off today</p>
 
-          <a href="#" class="btn">Order Now</a>
+          <a href="#productMainContainer" class="btn">Order Now</a>
 
         </div>
       </section>
@@ -152,34 +141,7 @@
           <p class="text-blk subHeading">
             As Barkfeast looks toward expansion, its vision extends beyond Pune to cities and towns nationwide. Carrying the stories of volunteers, compassionate children, and countless street dogs, Barkfeast is more than just a brand—it is a movement driven by empathy and action. With a focus on making a lasting impact, Barkfeast is dedicated to creating a future where no stray goes hungry and every act of kindness leaves a lasting mark.
           </p>
-          <!-- <p class="text-blk subHeading">
-              Barkfeast emerged from countless nights of brainstorming, tears shed over the plight of malnourished puppies, and an unshakeable belief that we could - and must - do better. Our vision, simple yet revolutionary, was to create dog food that would nourish not just street dogs, but also the spirits of those who care for them.
-            </p>
-            <p class="text-blk subHeading">
-              By keeping our prices accessible without ever compromising on quality, we aim to create a ripple effect of kindness that starts in the narrow lanes of Pune and spreads acrosscities. We dream of a day when no volunteer must turn away from a hungry dog, when animal shelters can focus on rehabilitation rather than merely keeping their wards alive, and when every street dog can enjoy a full belly and a wagging tail.
-            </p>
-            <p class="text-blk subHeading">
-              As we set our sights on expansion to major cities and, eventually, nationwide coverage, we carry with us the stories of every volunteer who has ever shared their last roti with a stray, every child who has saved their pocket money to buy biscuits for the neighbourhood dogs, and every street dog who has known both the cruelty and kindness of humanity. Barkfeast is more than a brand - it's a promise to all of them that they are not alone in this fight.
-            </p> -->
-
-          <div class="social-icons-container">
-            <a class="social-icon">
-              <img class="socialIcon image-block"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block"
-                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png">
-            </a>
-          </div>
+          
         </div>
       </div>
 
@@ -279,17 +241,9 @@
 
 
       <!-- WE ARE COMMITED TO -->
-      <!-- <div>
-        <div id="mission" class="container">
-            <h1>Our Mission</h1>
-            <p>At the heart of Barkfeast lies a mission that burns bright with compassion and determination. We envision a world where the sight of a malnourished street dog is a thing of the past, where every canine life is valued, nurtured, and celebrated. Our mission goes beyond mere sustenance - we aim to create an ecosystem that transforms how society perceives and treats its most vulnerable four-legged members.</p>
-        </div>
-      </div> -->
       <div  id="mission" class="responsive-container-block bigContainer">
         <div class="responsive-container-block Container">
-          <!-- <p class="text-blk heading">
-              Our Mission
-          </p> -->
+        
 
           <h2 class="h2 section-title">
             <span class="span">
@@ -303,20 +257,7 @@
             valued, nurtured, and celebrated. Our mission goes beyond mere sustenance - we aim to create an ecosystem
             that transforms how society perceives and treats its most vulnerable four-legged members.
           </p>
-          <!-- <div class="social-icons-container">
-            <a class="social-icon">
-              <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
-            </a>
-            <a class="social-icon">
-              <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png">
-            </a>
-          </div> -->
+         
         </div>
       </div>
 
@@ -326,7 +267,8 @@
       <div id="commitment" class="container" style="padding-block: 40px;">
         <p style="text-align: center;" class="text-blk heading">We are commited to</p>
         <div class="cards">
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#1</span>
             <h2 class="title">Community Care</h2>
             <p class="info">The streets of our cities are not just thoroughfares; they are home to countless loyal
@@ -336,7 +278,8 @@
 
           </article>
 
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#2</span>
             <h2 class="title">Animal Welfare</h2>
             <p class="info">The wagging tail of a well-fed dog is music to our ears. By making nutritious food
@@ -346,7 +289,8 @@
 
           </article>
 
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#3</span>
             <h2 class="title">Access to Nutrition</h2>
             <p class="info">In a world of abundance, it's a tragedy that so many dogs go hungry. Barkfeast is our way of
@@ -356,7 +300,8 @@
 
           </article>
 
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#4</span>
             <h2 class="title">Reducing Shelter Burden</h2>
             <p class="info">Animal shelters are often the last line of defence for street dogs, but they're buckling
@@ -367,7 +312,8 @@
 
           </article>
 
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#5</span>
             <h2 class="title">Community Engagement</h2>
             <p class="info">We don't just sell dog food; we create an ecosystem by making it easier for people to feed
@@ -377,7 +323,8 @@
 
           </article>
 
-          <article class="information [ card ]">
+          <article data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" class="information [ card ]">
             <span class="tag">#6</span>
             <h2 class="title">Social Responsibility</h2>
             <p class="info">At Barkfeast, we believe that the measure of a society is how it treats its most vulnerable
@@ -397,7 +344,7 @@
         <div class="Productcontainer">
           <div class="imgBx">
             <img
-              src="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto.png?raw=true"
+              src="./assets/images/product.png"
               alt="Nike Jordan Proto-Lyte Image">
           </div>
           <div class="details">
@@ -406,9 +353,7 @@
                 <span>A Feast of Love</span>
               </h2>
               <p>
-                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo laborum quasi itaque sequi facere
-                nesciunt labore nobis optio, soluta rem asperiores beatae nisi incidunt! Rerum recusandae consequatur
-                corporis earum? -->
+              
                 <ul>
                     <li>Delight of Chicken: Close your eyes and picture a street dog's face lighting up as it savours the rich taste of chicken in every bite. It's not just flavour - it's a moment of pure joy in what can often be a harsh world.</li>
                     <li>Essential Nutrients: Packed with a carefully balanced blend of vitamins and minerals, each serving of Barkfeast is like a warm hug for a dog's immune system. We're not just filling bellies; we're building stronger, healthier bodies that can better withstand the challenges of street life.                  
@@ -428,14 +373,14 @@
         <!-- NUTRITIoNAL VALUE -->
         
         <div class="containerN">
-          <!-- <p class="container-title">Nutritional Information<br>Fuelling Health and Hope for Street Dogs</p> -->
-          <!-- <p style="text-align: center;" class="text-blk heading">Product Information</p> -->
+         
           <h2 class="h2 section-title" style="margin-top: 2rem;">
             <span class="span">Nutritional <br></span> Information
           </h2>
         
           <div class="gradient-cards">
-            <div class="cardN">
+            <div  data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN ">
               <div class="container-card bg-green-box">
                 <img src="./assets/images/icons8-muscle-50.png" alt="" srcset="">
                           <defs>
@@ -455,7 +400,8 @@
               </div>
             </div>
 
-            <div class="cardN">
+            <div data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN">
               <div class="container-card bg-green-box">
                 <img height="50" width="50" src="./assets/images/icons8-bubbles-80.png" alt="" srcset="">
                           <defs>
@@ -476,7 +422,8 @@
             </div>
 
 
-            <div class="cardN">
+            <div data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN">
               <div class="container-card bg-green-box">
                 <img height="50" width="50" src="./assets/images/icons8-fiber-64.png" alt="" srcset="">
                           <defs>
@@ -497,7 +444,8 @@
             </div>
 
 
-            <div class="cardN">
+            <div data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN">
               <div class="container-card bg-green-box">
                 <img height="50" width="50" src="./assets/images/icons8-dust-64.png" alt="" srcset="">
                           <defs>
@@ -518,7 +466,8 @@
             </div>
 
 
-            <div class="cardN">
+            <div data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN">
               <div class="container-card bg-green-box">
                 <img height="50" width="50" src="./assets/images/icons8-carbohydrates-48.png" alt="" srcset="">
                           <defs>
@@ -539,7 +488,8 @@
             </div>
         
             
-            <div class="cardN">
+            <div data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="cardN">
               <div class="container-card bg-green-box">
                 <img height="50" width="50" src="./assets/images/icons8-energy-96.png" alt="" srcset="">
                           <defs>
@@ -751,7 +701,7 @@
               replacement. That’s our taste guarantee.
             </p>
 
-            <a href="#" class="btn">Order Now</a>
+            <a href="#productMainContainer" class="btn">Order Now</a>
 
           </div>
 
@@ -789,7 +739,7 @@
           <a href="#" class="logo" style="margin-left: 0px;">BarkFeast</a>
 
           <p class="footer-text">
-            If you have any question, please contact us at <a href="mailto:support@gmail.com"
+            If you have any question, please contact us at <a href="info@barkfeast.com"
               class="link">info@barkfeast.com</a>
           </p>
 
@@ -806,7 +756,7 @@
             <li class="contact-item">
               <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
 
-              <a href="tel:+16234567891011" class="contact-link">9371447778</a>
+              <a href="tel:9371447778" class="contact-link">(+91) 9371447778</a>
             </li>
 
           </ul>
@@ -814,25 +764,25 @@
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a target="_blank" href="https://facebook.com/6159365515675" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a target="_blank" href="#" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a target="_blank" href="#" class="social-link">
                 <ion-icon name="logo-pinterest"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a target="_blank" href="https://instagram.com/barkfeast" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
@@ -884,6 +834,14 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      
+    });
+    
+  </script>
 
   <!-- 
     - ionicon link

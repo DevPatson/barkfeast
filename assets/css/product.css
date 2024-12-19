@@ -22,7 +22,7 @@
 }
 
 .Productcontainer .imgBx:before {
-    content: 'Nike';
+    content: 'Bark';
     position: absolute;
     top: 0px;
     left: 24px;
@@ -38,8 +38,30 @@
     transform: rotate(-30deg);
     left: -50px;
     transition: .9s linear;
+    animation: example 7s 100ms ease-in-out infinite ;
+    
 }
 
+@keyframes example {
+    
+
+    0%{
+        transform: rotate(-10deg);
+    }
+    /* 25%{
+        transform: rotate(-10deg);
+    } */
+    50%{
+        transform: rotate(10deg);
+    }
+    /* 75%{
+        transform: rotate(-10deg);
+
+    } */
+    100%{
+        transform: rotate(-10deg);
+    }
+  }
 .Productcontainer .details {
     display: flex;
     justify-content: center;
@@ -151,6 +173,7 @@
 }
 /* responsive */
 @media (max-width: 1080px) {
+
     .Productcontainer .details{
         padding-inline: 20px;
     }
@@ -177,8 +200,9 @@
     }
     .Productcontainer .imgBx img {
         left: initial;
-        max-width: 100%;
+        max-width: 115%;
         transform: rotate(0deg);
+        animation: none;
     }
     .details {
         width: 100% !important;
