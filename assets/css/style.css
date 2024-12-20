@@ -3,11 +3,12 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2024 Pratik Sonar
  */
 
 
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 
 /*-----------------------------------*\
@@ -140,6 +141,7 @@ body {
   color: var(--black);
   font-size: 1.6rem;
   line-height: 1.5;
+  
 }
 
 :focus-visible { outline-offset: 4px; }
@@ -202,6 +204,7 @@ body {
 .section-title {
   text-align: center;
   margin-block-end: 30px;
+  margin-block-start: 10px;
 }
 
 .section-title .span {
@@ -274,7 +277,7 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--white);
-  padding-block: 20px;
+  padding-block: 15px;
   z-index: 4;
 }
 
@@ -302,7 +305,9 @@ body {
 .nav-toggle-btn.active .close-icon { display: block; }
 
 .logo {
-  font-family: var(--ff-carter_one);
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  /* font-style: normal; */
   font-size: 3rem;
   margin-inline-start: auto;
     margin-left: 2.0rem;
@@ -616,6 +621,8 @@ body {
 }
 
 .footer .logo {
+  font-family: var(--ff-carter_one);
+  font-weight: 400;
   color: var(--white);
   margin-block-end: 10px;
 }
@@ -746,7 +753,7 @@ body {
 
   }
 
-
+  
 
   /**
    * REUSED STYLE
@@ -875,7 +882,9 @@ body {
 
   }
 
-
+  .section-title{
+    margin-block-end:20px;
+  }
 
   /**
    * REUSED STYLE
@@ -973,7 +982,7 @@ body {
 
   .container { padding-inline: 30px; }
 
-  .scrollbar-item { min-width: calc(20% - 24px); }
+  .scrollbar-item {  }
 
 
 
