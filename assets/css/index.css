@@ -22,7 +22,8 @@
   --c-governor: #4133B7;
   --amber: hsl(45, 100%, 51%);
   --bright-yellow-crayola: hsl(36, 94%, 57%);
-  --portland-orange: hsl(15, 84%, 57%);
+  /* --portland-orange: hsl(15, 84%, 57%); */
+  --portland-orange:#186996;
 
 
 }

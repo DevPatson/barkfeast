@@ -22,7 +22,8 @@
    */
 
   --bright-yellow-crayola: hsl(36, 94%, 57%);
-  --portland-orange: hsl(15, 84%, 57%);
+  /* --portland-orange: hsl(15, 84%, 57%); */
+  --portland-orange:#114a6a;
   --battleship-gray: hsl(0, 0%, 53%);
   --silver-chalice: hsl(0, 0%, 70%);
   --spanish-gray: hsl(0, 0%, 60%);
@@ -36,6 +37,9 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --onyx: hsl(220, 2%, 24%);
+  --light-blue:#35a2df;
+  --medium-blue:#186996;
+  --dark-blue:#114a6a;
 
   /**
    * typography
@@ -559,7 +563,7 @@ body {
 
 .cta-banner { display: none; }
 
-.cta-content { padding-block: 80px var(--section-padding); }
+.cta-content { padding-block: 80px var(--section-padding);color: var(--white); }
 
 .cta .section-title {
   text-align: left;
@@ -634,7 +638,7 @@ body {
 
 .footer-text .link {
   display: inline-block;
-  color: var(--portland-orange);
+  color: var(--medium-blue);
 }
 
 .contact-item {
@@ -649,7 +653,7 @@ body {
 .contact-item ion-icon {
   flex-shrink: 0;
   font-size: 22px;
-  color: var(--portland-orange);
+  color: var(--medium-blue);
 }
 
 .social-list {
@@ -1113,7 +1117,7 @@ body {
    * CTA
    */
 
-  .cta-content { padding-block: 100px; }
+  .cta-content { padding-block: 100px; color: var(--white); }
 
 
 
