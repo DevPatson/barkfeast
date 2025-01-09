@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BarkFeast Premium</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/premium-css/premiumstyles.css">
+</head>
+
+<body>
+  <header class="header" style="background-color: transparent;color: white;" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="/" class="logo">BarkFeast</a>
+      <button style="visibility: hidden;" class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/#abtUs" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/#mission" class="navbar-link" data-nav-link>Our mission</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/#commitment" class="navbar-link" data-nav-link>Our Commitment</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/#productMainContainer" class="navbar-link" data-nav-link>Product</a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+
+
+      </div>
+
+    </div>
+  </header>
+
+  <nav>
+    <div class="container mobhead" style=" max-width: 70rem;
+            padding: 15px 2rem;
+            margin: 0 auto;">
+      <a href="/" class="logo">
+        <img style="width: 30px;height: 30px;color: white;" src="./assets/images/arrow.png" />
+      </a>
+      <div class="hamburger-menu">
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="section cta" aria-label="cta"
+    style="background-image: url('https://t3.ftcdn.net/jpg/01/96/83/20/360_F_196832044_ISa3G24W2dmiW5X94hJq59Cs8uHat8I1.jpg')">
+    <div class="container" style="display: block;">
+
+      <p class="cta-subtitle ">Coming Soon</p>
+
+      <h2 class="big-title ">BarkFeast Premium.</h2>
+
+
+    </div>
+  </section>
+  <section class="sectionde">
+    <div class="shadow"></div>
+
+    <div class="containerAb">
+       
+      <div class="content opacity">
+        <h3 class="title" style="text-align: center;margin-bottom: 7rem;font-size: 3.5rem;color: #898585;">
+          Pre-launch registrations opening soon
+        <div class="border"></div>
+      </h3>
+        <h3 class="title">
+          Our Premium Promise
+          <div class="border"></div>
+        </h3>
+        <p class="text">At Barkfeast, we understand that pet dogs have unique nutritional requirements based on their
+          breed, size, age, and lifestyle. Our Premium line is being developed with meticulous attention to these
+          specific needs, incorporating:</p>
+
+        <div class="ulDiv">
+          <h3 style="font-size: 1.5rem;" class="title">
+            Advanced Nutritional Profile <div class="border"></div>
+          </h3>
+          <ul class="textul">
+            <li>Enhanced Protein Content </li>
+            <li>Optimized Fat Content </li>
+            <li>Precise Fiber Balance </li>
+            <li>Comprehensive Mineral Profile </li>
+            <li>Vitamin Enrichment </li>
+          </ul>
+        </div>
+       
+      </div>
+
+
+    </div>
+  </section>
+  <!-- <script src="./assets/js/script.js"></script> -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- <script >
+        const translate = document.querySelectorAll(".translate");
+const big_title = document.querySelector(".big-title");
+// const header = document.querySelector("header");
+const shadow = document.querySelector(".shadow");
+const content = document.querySelector(".content");
+const section = document.querySelector("section");
+const image_container = document.querySelector(".imgContainer");
+const opacity = document.querySelectorAll(".opacity");
+const border = document.querySelector(".border");
+
+let header_height = header.offsetHeight;
+let section_height = section.offsetHeight;
+
+window.addEventListener('scroll', () => {
+    let scroll = window.pageYOffset;
+    let sectionY = section.getBoundingClientRect();
+    
+    translate.forEach(element => {
+        let speed = element.dataset.speed;
+        element.style.transform = `translateY(${scroll * speed}px)`;
+    });
+
+    opacity.forEach(element => {
+        element.style.opacity = scroll / (sectionY.top + section_height);
+    })
+
+    big_title.style.opacity = - scroll / (header_height / 2) + 1;
+    shadow.style.height = `${scroll * 0.5 + 300}px`;
+
+    content.style.transform = `translateY(${scroll / (section_height + sectionY.top) * 50 - 50}px)`;
+    image_container.style.transform = `translateY(${scroll / (section_height + sectionY.top) * -50 + 50}px)`;
+
+    border.style.width = `${scroll / (sectionY.top + section_height) * 30}%`;
+})
+    </script> -->
+</body>
+
+</html>
