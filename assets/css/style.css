@@ -295,6 +295,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+  margin-left: 4rem;
 }
 
 .nav-toggle-btn {
@@ -314,7 +315,7 @@ body {
   /* font-style: normal; */
   font-size: 3rem;
   margin-inline-start: auto;
-    margin-left: 2.0rem;
+    margin-left: -2.0rem;
 }
 
 .header-actions {
