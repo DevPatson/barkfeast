@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="./assets/css/product.css">
   <link rel="stylesheet" href="./assets/css/nutritional.css">
   <link rel="stylesheet" href="./assets/css/testimonial.css">
+  <link rel="stylesheet" href="./assets/css/faq.css">
 
   <!-- 
     - google font link
@@ -730,7 +731,66 @@
     </article>
   </main>
 
+  <div class="container">
+  <div class="accordion">
+    <h2 class="h2 section-title">
+      <span class="span">Barkfeast </span>FAQs.
+    </h2>
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq1">Why choose Barkfeast?</div>
+      <div class="accordion__content" id="faq1">
+        <p>Barkfeast provides economical dog food options that support both our volunteer community and street dogs. This dual-purpose solution ensures quality nutrition while remaining accessible and cost-effective.        </p>
+      </div>
+    </div>
 
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq2">How do I know if Barkfeast is safe and high quality?</div>
+      <div class="accordion__content" id="faq2">
+        <p>Barkfeast maintains strict quality control through regular testing in our production facility. Our products meet AAFCO guidelines and have undergone successful testing across dogs of various ages and sizes.</p>
+      
+      </div>
+    </div>
+
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq3">Is Barkfeast suitable for all life stages?</div>
+      <div class="accordion__content" id="faq3">
+        <p>Barkfeast meets nutritional requirements for puppies, adult dogs, and seniors. Testing across different age groups and dog sizes over a 6-month period has demonstrated consistent positive results.</p>
+        
+      </div>
+    </div>
+
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq4">How to introduce Barkfeast to my dog?</div>
+      <div class="accordion__content" id="faq4">
+        <p>Follow a 7-10 day transition period from current food to Barkfeast. Begin with 15% Barkfeast and 85% current food, then gradually increase the Barkfeast portion daily until reaching 100%.</p>
+        
+      </div>
+    </div>
+   
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq5">How does Barkfeast support a balanced diet?</div>
+      <div class="accordion__content" id="faq5">
+        <p>Barkfeast delivers complete nutrition through a balanced mix of proteins, healthy fats, fibers, vitamins, and minerals. This formulation supports energy levels, immune function, and overall health across all life stages.</p>
+        
+      </div>
+    </div>
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq6">Is it safe to feed Barkfeast to my pet?</div>
+      <div class="accordion__content" id="faq6">
+        <p>Barkfeast provides safe nutrition that meets AAFCO standards and follows expert guidelines. Note that the product does not offer breed-specific or allergy-specific formulations.</p>
+        
+      </div>
+    </div>
+    <div class="accordion__item">
+      <div class="accordion__header" data-toggle="#faq7">Are there any special storage instructions?</div>
+      <div class="accordion__content" id="faq7">
+        <p>Store opened packages in an airtight container in a cool, dry place to maintain freshness.</p>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
@@ -850,6 +910,26 @@
       
     });
     
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const togglers = document.querySelectorAll('[data-toggle]');
+  
+    togglers.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+         const selector = e.currentTarget.dataset.toggle
+         const block = document.querySelector(`${selector}`);
+        if (e.currentTarget.classList.contains('active')) {
+          block.style.maxHeight = '';
+        } else {
+          block.style.maxHeight = block.scrollHeight+15 + 'px';
+          block.style.height = block.scrollHeight+15 + 'px'
+        }
+          
+         e.currentTarget.classList.toggle('active')
+      })
+    })
+	})
   </script>
 
   <!-- 

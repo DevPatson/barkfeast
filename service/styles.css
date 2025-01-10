@@ -243,7 +243,11 @@ nav {
 }
 
 .stats__card{
-  padding: 1rem;
+  padding: 1.5rem;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-clip: padding-box;
+  border-radius: 12px;
 }
 .stats__card span {
   font-size: 1.75rem;

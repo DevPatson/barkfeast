@@ -1135,3 +1135,9 @@ body {
   .footer { padding-block-start: 40px; }
 
 }
+
+@media (max-width:900px) {
+  .header .container{
+    margin-left: 0rem;
+  }
+}
